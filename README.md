@@ -1,1 +1,1 @@
-this was made thanks to the coding train maz generator in youtube. thanks.
+this was made thanks to the coding train maze generator in youtube. thanks.
