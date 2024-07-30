@@ -1,0 +1,34 @@
+/* style.css */
+
+html, body {
+  height: 100%;
+  padding: 10px;
+  background-color: rgb(15, 15, 56);
+}
+
+body {
+  margin: 0;
+  /*display: flex;
+
+  This centers our sketch horizontally.
+  justify-content: center;
+
+  This centers our sketch vertically.
+  align-items: center; 
+  */
+}
+
+button {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: aqua;
+  border: 1;
+  background-color: blue;
+  transition-duration: 0.4s;
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: antiquewhite;
+  box-shadow: 0 0 16px 0 rgba(255, 255, 255,1);
+}
