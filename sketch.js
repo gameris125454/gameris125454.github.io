@@ -1,7 +1,7 @@
 var cols, rows;
 let w = 20;
 let grid = [];
-let bt;
+let bt, next_bt;
 
 var current;
 
@@ -13,7 +13,8 @@ function setup() {
     // var y = (windowHeight - height - 200) / 2;
     // cnv.position(x, y);
 
-    bt = createButton('save Image')
+    bt = createButton('save Image');
+    next_bt = createButton('next Page: 10PRINT');
 
     cols = floor(width / w);
     rows = floor(height / w);
@@ -31,6 +32,10 @@ function setup() {
 
 function saveImages() {
     save('the maze generator.png');
+}
+
+function sendToNext() {
+    window.location.href = './10PRINT/10print.html';
 }
 
 function keyPressed() {
@@ -61,7 +66,8 @@ function draw() {
         current = stack.pop();
     }
 
-    bt.mouseClicked(saveImages)
+    bt.mouseClicked(saveImages);
+    next_bt.mouseClicked(sendToNext);
 }
 
 function index(i, j) {

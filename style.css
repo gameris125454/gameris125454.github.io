@@ -19,6 +19,7 @@ body {
 }
 
 button {
+  margin: 5px;
   border-radius: 5px;
   border-style: solid;
   border-color: aqua;

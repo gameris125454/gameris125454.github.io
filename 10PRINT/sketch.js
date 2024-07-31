@@ -3,7 +3,7 @@ let y = 0;
 let prob = 0.5;
 let spacing = 20;
 let generate = false;
-let bt_start, bt_stop, slider, probValueText;
+let bt_start, bt_stop, slider, probValueText, back_bt;
 
 function setup() {
     createCanvas(400, 400);
@@ -11,14 +11,22 @@ function setup() {
 
     bt_start = createButton('start');
     bt_stop = createButton('reset');
+    
 
     slider = createSlider(0, 1, 0.5, 0.05);
 
     probValueText = createP('prob: 0.5');
 
+    back_bt = createButton('back to maze generator');
+
     bt_start.mouseClicked(generatesketch);
     bt_stop.mouseClicked(reset);
     slider.input(changeProb);
+    back_bt.mouseClicked(sendToNext)
+}
+
+function sendToNext() {
+    window.location.href = '../../index.html';
 }
 
 function keyPressed() {
