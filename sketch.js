@@ -35,7 +35,7 @@ function saveImages() {
 }
 
 function sendToNext() {
-    window.location.href = './10PRINT/10print.html';
+    window.location.href = './10PRINT/';
 }
 
 function keyPressed() {
