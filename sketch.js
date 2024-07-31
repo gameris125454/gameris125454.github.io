@@ -14,7 +14,9 @@ function setup() {
     // cnv.position(x, y);
 
     bt = createButton('save Image');
+    bt.addClass('green_Button');
     next_bt = createButton('next Page: 10PRINT');
+    next_bt.addClass('blue_Button');
 
     cols = floor(width / w);
     rows = floor(height / w);

@@ -3,7 +3,7 @@
 html, body {
   height: 100%;
   padding: 10px;
-  background-color: rgb(15, 15, 56);
+  background-color: rgb(15, 15, 15);
 }
 
 body {
@@ -18,18 +18,39 @@ body {
   */
 }
 
-button {
-  margin: 5px;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: aqua;
-  border: 1;
-  background-color: blue;
+.blue_Button {
+  margin: 2px;
+  background-color: #008CBA; /* Blue */
+  border: 2px solid #008CBA;
+  border-radius: 2px;
+  color: black;
   transition-duration: 0.4s;
-  box-shadow: none;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-button:hover {
-  background-color: antiquewhite;
-  box-shadow: 0 0 16px 0 rgba(255, 255, 255,1);
+.green_Button {
+  margin: 2px;
+  background-color: #04AA6D; /* Green */
+  border: 2px solid #04AA6D;
+  border-radius: 2px;
+  color: black;
+  transition-duration: 0.4s;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.blue_Button:hover {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+.green_Button:hover {
+  background-color: rgb(15, 15, 15);
+  color: white;
 }
