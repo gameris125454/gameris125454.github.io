@@ -31,7 +31,7 @@ function setup() {
 }
 
 function saveImages() {
-    save('the maze generator.png');
+    save('the maze generator!!.png');
 }
 
 function sendToNext() {
