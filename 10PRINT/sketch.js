@@ -26,7 +26,7 @@ function setup() {
 }
 
 function sendToNext() {
-    window.location.href = '../../index.html';
+    window.location.href = '../../';
 }
 
 function keyPressed() {
