@@ -20,6 +20,7 @@ let allNeighbors = [];
 
 function setup() {
     let cnv = createCanvas(windowWidth, windowHeight);
+    cnv.parent('CNV-Container');
     cnv.style('position', 'fixed');
     cnv.style('inset', 0);
     cnv.style('z-index', -1);
