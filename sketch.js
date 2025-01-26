@@ -9,14 +9,19 @@ var stack = [];
 
 function setup() {
     var cnv = createCanvas(400, 400);
+    cnv.parent('CNV-Container2')
     // var x = (windowWidth - width) / 2;
     // var y = (windowHeight - height - 200) / 2;
     // cnv.position(x, y);
 
     bt = createButton('save Image');
     bt.addClass('green_Button');
+    bt.parent('CNV-Container2');
+    bt.position(10, 420); 
     next_bt = createButton('next Page: 10PRINT');
     next_bt.addClass('blue_Button');
+    next_bt.parent('CNV-Container2');
+    next_bt.position(150, 420); 
 
     cols = floor(width / w);
     rows = floor(height / w);

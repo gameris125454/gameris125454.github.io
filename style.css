@@ -1,23 +1,20 @@
 /* style.css */
 
 html, body {
-  height: 100%;
-  padding: 10px;
   background-color: rgb(15, 15, 15);
 }
-
-body {
-  margin: 0;
-  /*display: flex;
-
-  This centers our sketch horizontally.
-  justify-content: center;
-
-  This centers our sketch vertically.
-  align-items: center; 
-  */
+#CNV-Container {
+  width: 100%; /* Or any desired width */
+  height: 100vh; /* Set a height so the canvas fits */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-
+#CNV-Container2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .blue_Button {
   margin: 2px;
   background-color: #008CBA; /* Blue */
